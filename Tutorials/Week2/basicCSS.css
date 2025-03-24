@@ -1,0 +1,33 @@
+/* This is a comment */
+p{
+    color: rgb(17, 0, 255);
+    font-size: 20px;
+}
+h1 {
+    background-color: blueviolet;
+    border-width: 2px;
+    border-style: dotted;
+    border-color: aqua;
+}
+h3{
+    border: 3px dashed fuchsia;
+}
+div{
+    background-color: aquamarine;
+    border-width: 3px;
+    border-style: ridge;
+    border-color: blueviolet;
+    padding: 15px;
+    padding-bottom: 100px;
+    margin: 25px;
+}
+div:hover {
+    background-color: black;
+    height: 45px;
+    width: 25px;
+    border-style: groove;
+    border-width: 30px;
+    border-color: blueviolet;
+} 
+
+

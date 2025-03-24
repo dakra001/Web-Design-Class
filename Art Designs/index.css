@@ -1,0 +1,14 @@
+body {
+    color: gold;
+    background-color: floralwhite;
+    text-align: center;
+}
+.mainSections{
+    background-color: rgb(120, 109, 109);
+    color: crimson;
+    width: 200px;
+    margin: auto;
+    padding: 50px;
+    border: 30px;
+    font-size: larger;
+}

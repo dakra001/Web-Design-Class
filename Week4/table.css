@@ -1,0 +1,17 @@
+thead {
+    background-color: blue;
+    border: 3px black ridge;
+}
+th {
+    border: 3px black ridge;
+}
+td {
+    padding: 10px;
+    
+}
+.borderRight{
+    border-right: 5px black ridge;
+}
+table{
+    border-collapse:;
+}

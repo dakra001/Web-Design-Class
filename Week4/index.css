@@ -1,0 +1,32 @@
+:root {
+    /* CSS HEX */
+    --caribbean-current: #006d77ff;
+    --tiffany-blue: #83c5beff;
+    --alice-blue: #edf6f9ff;
+    --pale-dogwood: #ffddd2ff;
+    --atomic-tangerine: #e29578ff;
+}
+
+body {
+    background-color: var(--caribbean-current);
+    text-align: center;
+    margin: 0px;
+
+}
+.innerBox{
+    margin: 30px;
+    padding: 50px;
+    background-color: var(--alice-blue);
+    border: 4px solid rgba(255, 0, 0, 0.067);
+}
+.outerBox {
+    margin-left: 20%;
+    margin-right: 30%;
+    margin-bottom: 30px;
+    padding: 30px;
+    background-color: var(--tiffany-blue);
+    border: 10px solid black;
+}
+#intro {
+    margin-bottom: 20px;
+}

@@ -1,0 +1,38 @@
+:root {
+    /* CSS HEX */
+    --caribbean-current: rgb(119, 0, 0);
+    --tiffany-blue: #83c5beff;
+    --alice-blue: #edf6f9ff;
+    --pale-dogwood: #ffddd2ff;
+    --atomic-tangerine: #e29578ff;
+}
+
+#menu ul {
+    background-color: var(--pale-dogwood);
+    list-style-type: none;
+    font: 30px sans-serif;
+    overflow: hidden;
+    padding: 0%;
+
+}
+#menu li {
+    float: left;
+}
+#menu a {
+    padding: 25px;
+    display: block;
+    text-decoration: none;
+    background-color: var(--tiffany-blue);
+    color: black;
+    border-right: white 10px  solid;
+
+}
+#menu a:hover {
+    /* color and background color */
+    background-color: aqua;
+    color: var(--atomic-tangerine)
+}
+#menu #home {
+    float: right ;
+    border-left :white 10px  solid; ;
+}
